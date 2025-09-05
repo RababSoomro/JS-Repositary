@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="output"></p>
+    <p id="free"></p>
+    <p id="print"></p>
+    <h2>XYZ Clothing Store</h2>
+
+  <!-- Input fields -->
+  <label>Visitor Name: </label>
+  <input type="text" id="visitorName" placeholder="Enter your name"><br><br>
+
+  <label>Product Title: </label>
+  <input type="text" id="productTitle" placeholder="Enter product name"><br><br>
+
+  <label>Quantity: </label>
+  <input type="number" id="quantity" min="1" value="1"><br><br>
+
+  <!-- Button -->
+  <button onclick="placeOrder()">Place Order</button>
+
+  <p id="orderMessage"></p>
+    <script src="app.js"></script>
+</body>
+</html>
